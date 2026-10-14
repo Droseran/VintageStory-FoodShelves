@@ -67,16 +67,6 @@
 			"floralzonescaperegion:fruit-*",
 		]
 	},
-	{
-		"dependsOn": [
-			{ "modid": "floralzonescaperegion" }
-		],
-		"side": "Server",
-		"file": "floralzonescaperegion:itemtypes/food/fruit.json",
-		"op": "addmerge",
-		"path": "/attributes/fsTextureOverride",
-		"value": "floralzonescaperegion:item/resource/{fruit}"
-	},
 
 
 	{
